@@ -1,0 +1,11 @@
+D:\Weel\Projects\Dev.io\MusicStore\src\buinding block\MS.Core\bin\Debug\net8.0\MS.Core.deps.json
+D:\Weel\Projects\Dev.io\MusicStore\src\buinding block\MS.Core\bin\Debug\net8.0\MS.Core.dll
+D:\Weel\Projects\Dev.io\MusicStore\src\buinding block\MS.Core\bin\Debug\net8.0\MS.Core.pdb
+D:\Weel\Projects\Dev.io\MusicStore\src\buinding block\MS.Core\obj\Debug\net8.0\MS.Core.GeneratedMSBuildEditorConfig.editorconfig
+D:\Weel\Projects\Dev.io\MusicStore\src\buinding block\MS.Core\obj\Debug\net8.0\MS.Core.AssemblyInfoInputs.cache
+D:\Weel\Projects\Dev.io\MusicStore\src\buinding block\MS.Core\obj\Debug\net8.0\MS.Core.AssemblyInfo.cs
+D:\Weel\Projects\Dev.io\MusicStore\src\buinding block\MS.Core\obj\Debug\net8.0\MS.Core.csproj.CoreCompileInputs.cache
+D:\Weel\Projects\Dev.io\MusicStore\src\buinding block\MS.Core\obj\Debug\net8.0\MS.Core.dll
+D:\Weel\Projects\Dev.io\MusicStore\src\buinding block\MS.Core\obj\Debug\net8.0\refint\MS.Core.dll
+D:\Weel\Projects\Dev.io\MusicStore\src\buinding block\MS.Core\obj\Debug\net8.0\MS.Core.pdb
+D:\Weel\Projects\Dev.io\MusicStore\src\buinding block\MS.Core\obj\Debug\net8.0\ref\MS.Core.dll

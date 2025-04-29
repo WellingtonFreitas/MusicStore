@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "nzLF0BTAfsssVrZO5lbyJGQb7r5SON2UpZLCyzuK9IQ=",
+  "Source": "MS.Cart.API",
+  "BasePath": "_content/MS.Cart.API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

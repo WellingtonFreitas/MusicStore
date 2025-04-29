@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "iXSRwA7q75lkpF8/56SXbjdUOBpllePqhG3v4kaPV90=",
+  "Source": "MS.Payment.API",
+  "BasePath": "_content/MS.Payment.API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}
