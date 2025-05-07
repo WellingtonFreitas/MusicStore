@@ -1,12 +1,11 @@
 {
   "Version": 1,
-  "Hash": "Cpj5qOKXDgaUGk5aE5KqKZxJxdBbC9vLvBBOk7p8mqY=",
+  "Hash": "J14r7IzEL4SeqnGMx73q5TeM0XCCeLQY2xX5+3ELZwg=",
   "Source": "MS.Customer.API",
   "BasePath": "_content/MS.Customer.API",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
   "DiscoveryPatterns": [],
-  "Assets": [],
-  "Endpoints": []
+  "Assets": []
 }

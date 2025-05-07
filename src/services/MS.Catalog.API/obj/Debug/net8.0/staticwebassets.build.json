@@ -1,12 +1,11 @@
 {
   "Version": 1,
-  "Hash": "NS1BBPbnCzDwFmjzmN7wccMcMb53PrUPhSjsBKbSRJg=",
+  "Hash": "3omrzjsFoPuEGaoFheT0ezDdUKge4EzqfHehd94roVA=",
   "Source": "MS.Catalog.API",
   "BasePath": "_content/MS.Catalog.API",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
   "DiscoveryPatterns": [],
-  "Assets": [],
-  "Endpoints": []
+  "Assets": []
 }
