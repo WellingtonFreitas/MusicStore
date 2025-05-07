@@ -4,6 +4,7 @@ using static MS.Identity.API.Models.UserViewModels;
 
 namespace MS.Identity.API.Controllers
 {
+    [ApiController]
     [Route("api/identity")]
     public class AuthController : Controller
     {

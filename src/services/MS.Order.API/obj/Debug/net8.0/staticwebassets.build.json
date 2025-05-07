@@ -1,12 +1,11 @@
 {
   "Version": 1,
-  "Hash": "tvYe4wRKb4QRnTYcD8c0i5Cf48Kbiiq4bmB36MwaxHo=",
+  "Hash": "s7Llx78SJ+Uh9l93CvOCqAbz4cTfl0JI7UvH0EsTGIo=",
   "Source": "MS.Order.API",
   "BasePath": "_content/MS.Order.API",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
   "DiscoveryPatterns": [],
-  "Assets": [],
-  "Endpoints": []
+  "Assets": []
 }
