@@ -1,7 +1,11 @@
+using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
 using MS.Identity.API.Data;
+using MS.Identity.API.Extensions;
+using System.Text;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -20,6 +24,32 @@ builder.Services.AddDataProtection();
 
 builder.Services.AddDbContext<ApplicationDbContext>(options =>
     options.UseSqlServer(connectionString));
+
+#region JWT Configuration
+
+var appSettingsSection = configuration.GetSection("AppSettings");
+builder.Services.Configure<AppSettings>(appSettingsSection);
+var appsettings = appSettingsSection.Get<AppSettings>();
+var key = Encoding.ASCII.GetBytes(appsettings.Secret);
+
+builder.Services.AddAuthentication(options =>
+{
+    options.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
+    options.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;
+}).AddJwtBearer(bearerOptions => 
+{
+    bearerOptions.RequireHttpsMetadata = true;
+    bearerOptions.SaveToken = true;
+    bearerOptions.TokenValidationParameters = new TokenValidationParameters
+    {
+        ValidateIssuerSigningKey = true,
+        IssuerSigningKey = new SymmetricSecurityKey(key),
+        ValidAudience = appsettings.ValidIn,
+        ValidIssuer = appsettings.Inssuer,
+    };
+});
+
+#endregion
 
 builder.Services.AddDefaultIdentity<IdentityUser>()
     .AddRoles<IdentityRole>()
