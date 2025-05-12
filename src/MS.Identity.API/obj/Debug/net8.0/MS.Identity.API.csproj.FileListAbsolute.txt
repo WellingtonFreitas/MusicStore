@@ -310,3 +310,4 @@ C:\Projects\estudos\MusicStore\src\MS.Identity.API\obj\Debug\net8.0\scopedcss\bu
 C:\Projects\estudos\MusicStore\src\MS.Identity.API\obj\Debug\net8.0\MS.Ident.AF094C3F.Up2Date
 C:\Projects\estudos\MusicStore\src\MS.Identity.API\obj\Debug\net8.0\MS.Identity.API.genruntimeconfig.cache
 C:\Projects\estudos\MusicStore\src\MS.Identity.API\obj\Debug\net8.0\ref\MS.Identity.API.dll
+C:\Projects\estudos\MusicStore\src\MS.Identity.API\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
