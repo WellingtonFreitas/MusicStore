@@ -9,10 +9,11 @@ using System.Text;
 
 var builder = WebApplication.CreateBuilder(args);
 
+string appSettings = builder.Environment.IsDevelopment() ? "appsettings.Development.json" : "appsettings.json";
 // Add services to the container.
 var configuration = new ConfigurationBuilder()
                 .SetBasePath(Directory.GetCurrentDirectory()) // usa o diretório do projeto atual
-                .AddJsonFile("appsettings.json") // ou .AddJsonFile("appsettings.Development.json")
+                .AddJsonFile(appSettings) // ou .AddJsonFile("appsettings.Development.json")
                 .Build();
 
 var connectionString =
@@ -45,7 +46,7 @@ builder.Services.AddAuthentication(options =>
         ValidateIssuerSigningKey = true,
         IssuerSigningKey = new SymmetricSecurityKey(key),
         ValidAudience = appsettings.ValidIn,
-        ValidIssuer = appsettings.Inssuer,
+        ValidIssuer = appsettings.Issuer,
     };
 });
 
