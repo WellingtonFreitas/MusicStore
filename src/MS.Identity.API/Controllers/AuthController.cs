@@ -12,7 +12,7 @@ namespace MS.Identity.API.Controllers
 {
     [ApiController]
     [Route("api/identity")]
-    public class AuthController : Controller
+    public class AuthController : BaseController
     {
         private readonly SignInManager<IdentityUser> _signInManager;
         private readonly UserManager<IdentityUser> _userManger;
@@ -28,7 +28,7 @@ namespace MS.Identity.API.Controllers
         [HttpPost("create-login")]
         public async Task<ActionResult> Register(UserRegistration userRegistration)
         {
-            if (!ModelState.IsValid) return BadRequest();
+            if (!ModelState.IsValid) return CustomResponse(ModelState);
 
             var user = new IdentityUser
             {
@@ -41,25 +41,37 @@ namespace MS.Identity.API.Controllers
 
             if (result.Succeeded)
             {
-                await _signInManager.SignInAsync(user, isPersistent: false);
-                return Ok(await GenerateTokenJWT(userRegistration.Email));
+                return CustomResponse(await GenerateTokenJWT(userRegistration.Email));
             }
 
-            return BadRequest(result.Errors);
+            foreach (var error in result.Errors)
+            {
+                AddError(error.Description);
+            }
+
+            return CustomResponse(result.Errors);
         }
 
         [HttpPost("login")]
         public async Task<ActionResult> Login(UserLogin userLogin)
         {
-            if (!ModelState.IsValid) return BadRequest();
+            if (!ModelState.IsValid) return CustomResponse(ModelState);
 
             var result = await _signInManager.PasswordSignInAsync(userName: userLogin.Email, password: userLogin.Password, isPersistent: false, lockoutOnFailure: true);
 
             if (result.Succeeded)
             {
-                return Ok(await GenerateTokenJWT(userLogin.Email));
+                return CustomResponse(await GenerateTokenJWT(userLogin.Email));
             }
-            return BadRequest(result);
+
+            if (result.IsLockedOut)
+            {
+                AddError($"Locked out {userLogin.Email}");
+                return CustomResponse();
+            }
+
+            AddError($"User or passwors invalid");
+            return CustomResponse();
         }
 
         [NonAction]
