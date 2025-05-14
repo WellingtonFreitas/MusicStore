@@ -1,30 +1,30 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\Weel\\Projects\\Dev.io\\MusicStore\\",
+  "WorkspaceRootPath": "C:\\Projects\\estudos\\MusicStore\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{682883DD-E9DB-4B53-885E-8CEAB34CD205}|src\\MS.Identity.API\\MS.Identity.API.csproj|d:\\weel\\projects\\dev.io\\musicstore\\src\\ms.identity.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "AbsoluteMoniker": "D:0:0:{682883DD-E9DB-4B53-885E-8CEAB34CD205}|src\\MS.Identity.API\\MS.Identity.API.csproj|c:\\projects\\estudos\\musicstore\\src\\ms.identity.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{682883DD-E9DB-4B53-885E-8CEAB34CD205}|src\\MS.Identity.API\\MS.Identity.API.csproj|solutionrelative:src\\ms.identity.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{682883DD-E9DB-4B53-885E-8CEAB34CD205}|src\\MS.Identity.API\\MS.Identity.API.csproj|c:\\projects\\estudos\\musicstore\\src\\ms.identity.api\\controllers\\basecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{682883DD-E9DB-4B53-885E-8CEAB34CD205}|src\\MS.Identity.API\\MS.Identity.API.csproj|solutionrelative:src\\ms.identity.api\\controllers\\basecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{682883DD-E9DB-4B53-885E-8CEAB34CD205}|src\\MS.Identity.API\\MS.Identity.API.csproj|c:\\projects\\estudos\\musicstore\\src\\ms.identity.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{682883DD-E9DB-4B53-885E-8CEAB34CD205}|src\\MS.Identity.API\\MS.Identity.API.csproj|solutionrelative:src\\ms.identity.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{682883DD-E9DB-4B53-885E-8CEAB34CD205}|src\\MS.Identity.API\\MS.Identity.API.csproj|d:\\weel\\projects\\dev.io\\musicstore\\src\\ms.identity.api\\migrations\\20250409114315_initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{682883DD-E9DB-4B53-885E-8CEAB34CD205}|src\\MS.Identity.API\\MS.Identity.API.csproj|solutionrelative:src\\ms.identity.api\\migrations\\20250409114315_initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{682883DD-E9DB-4B53-885E-8CEAB34CD205}|src\\MS.Identity.API\\MS.Identity.API.csproj|c:\\projects\\estudos\\musicstore\\src\\ms.identity.api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{682883DD-E9DB-4B53-885E-8CEAB34CD205}|src\\MS.Identity.API\\MS.Identity.API.csproj|solutionrelative:src\\ms.identity.api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{682883DD-E9DB-4B53-885E-8CEAB34CD205}|src\\MS.Identity.API\\MS.Identity.API.csproj|d:\\weel\\projects\\dev.io\\musicstore\\src\\ms.identity.api\\data\\applicationdbcontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{682883DD-E9DB-4B53-885E-8CEAB34CD205}|src\\MS.Identity.API\\MS.Identity.API.csproj|solutionrelative:src\\ms.identity.api\\data\\applicationdbcontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{682883DD-E9DB-4B53-885E-8CEAB34CD205}|src\\MS.Identity.API\\MS.Identity.API.csproj|c:\\projects\\estudos\\musicstore\\src\\ms.identity.api\\extensions\\appsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{682883DD-E9DB-4B53-885E-8CEAB34CD205}|src\\MS.Identity.API\\MS.Identity.API.csproj|solutionrelative:src\\ms.identity.api\\extensions\\appsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{682883DD-E9DB-4B53-885E-8CEAB34CD205}|src\\MS.Identity.API\\MS.Identity.API.csproj|d:\\weel\\projects\\dev.io\\musicstore\\src\\ms.identity.api\\ms.identity.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{682883DD-E9DB-4B53-885E-8CEAB34CD205}|src\\MS.Identity.API\\MS.Identity.API.csproj|solutionrelative:src\\ms.identity.api\\ms.identity.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{682883DD-E9DB-4B53-885E-8CEAB34CD205}|src\\MS.Identity.API\\MS.Identity.API.csproj|d:\\weel\\projects\\dev.io\\musicstore\\src\\ms.identity.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{682883DD-E9DB-4B53-885E-8CEAB34CD205}|src\\MS.Identity.API\\MS.Identity.API.csproj|c:\\projects\\estudos\\musicstore\\src\\ms.identity.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{682883DD-E9DB-4B53-885E-8CEAB34CD205}|src\\MS.Identity.API\\MS.Identity.API.csproj|solutionrelative:src\\ms.identity.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{682883DD-E9DB-4B53-885E-8CEAB34CD205}|src\\MS.Identity.API\\MS.Identity.API.csproj|d:\\weel\\projects\\dev.io\\musicstore\\src\\ms.identity.api\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{682883DD-E9DB-4B53-885E-8CEAB34CD205}|src\\MS.Identity.API\\MS.Identity.API.csproj|solutionrelative:src\\ms.identity.api\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,80 +34,114 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 8,
           "Children": [
             {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "20250409114315_Initial.cs",
-              "DocumentMoniker": "D:\\Weel\\Projects\\Dev.io\\MusicStore\\src\\MS.Identity.API\\Migrations\\20250409114315_Initial.cs",
-              "RelativeDocumentMoniker": "src\\MS.Identity.API\\Migrations\\20250409114315_Initial.cs",
-              "ToolTip": "D:\\Weel\\Projects\\Dev.io\\MusicStore\\src\\MS.Identity.API\\Migrations\\20250409114315_Initial.cs",
-              "RelativeToolTip": "src\\MS.Identity.API\\Migrations\\20250409114315_Initial.cs",
-              "ViewState": "AgIAACIAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-09T11:43:16.426Z"
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ApplicationDbContextFactory.cs",
-              "DocumentMoniker": "D:\\Weel\\Projects\\Dev.io\\MusicStore\\src\\MS.Identity.API\\Data\\ApplicationDbContextFactory.cs",
-              "RelativeDocumentMoniker": "src\\MS.Identity.API\\Data\\ApplicationDbContextFactory.cs",
-              "ToolTip": "D:\\Weel\\Projects\\Dev.io\\MusicStore\\src\\MS.Identity.API\\Data\\ApplicationDbContextFactory.cs",
-              "RelativeToolTip": "src\\MS.Identity.API\\Data\\ApplicationDbContextFactory.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-09T11:42:38.276Z"
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:132:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:133:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:134:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:135:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "D:\\Weel\\Projects\\Dev.io\\MusicStore\\src\\MS.Identity.API\\appsettings.json",
-              "RelativeDocumentMoniker": "src\\MS.Identity.API\\appsettings.json",
-              "ToolTip": "D:\\Weel\\Projects\\Dev.io\\MusicStore\\src\\MS.Identity.API\\appsettings.json",
-              "RelativeToolTip": "src\\MS.Identity.API\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAB+AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-04-09T11:02:06.197Z",
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Projects\\estudos\\MusicStore\\src\\MS.Identity.API\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "src\\MS.Identity.API\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Projects\\estudos\\MusicStore\\src\\MS.Identity.API\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "src\\MS.Identity.API\\Controllers\\AuthController.cs",
+              "ViewState": "AQIAACAAAAAAAAAAAAAYwEYAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-06T12:17:22.896Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Program.cs",
-              "DocumentMoniker": "D:\\Weel\\Projects\\Dev.io\\MusicStore\\src\\MS.Identity.API\\Program.cs",
+              "DocumentMoniker": "C:\\Projects\\estudos\\MusicStore\\src\\MS.Identity.API\\Program.cs",
               "RelativeDocumentMoniker": "src\\MS.Identity.API\\Program.cs",
-              "ToolTip": "D:\\Weel\\Projects\\Dev.io\\MusicStore\\src\\MS.Identity.API\\Program.cs",
+              "ToolTip": "C:\\Projects\\estudos\\MusicStore\\src\\MS.Identity.API\\Program.cs",
               "RelativeToolTip": "src\\MS.Identity.API\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAdAAAAAAAAAA==",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB8AAAA6AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-09T10:35:18.513Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "ApplicationDbContext.cs",
-              "DocumentMoniker": "D:\\Weel\\Projects\\Dev.io\\MusicStore\\src\\MS.Identity.API\\Data\\ApplicationDbContext.cs",
-              "RelativeDocumentMoniker": "src\\MS.Identity.API\\Data\\ApplicationDbContext.cs",
-              "ToolTip": "D:\\Weel\\Projects\\Dev.io\\MusicStore\\src\\MS.Identity.API\\Data\\ApplicationDbContext.cs",
-              "RelativeToolTip": "src\\MS.Identity.API\\Data\\ApplicationDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 4,
+              "Title": "AppSettings.cs",
+              "DocumentMoniker": "C:\\Projects\\estudos\\MusicStore\\src\\MS.Identity.API\\Extensions\\AppSettings.cs",
+              "RelativeDocumentMoniker": "src\\MS.Identity.API\\Extensions\\AppSettings.cs",
+              "ToolTip": "C:\\Projects\\estudos\\MusicStore\\src\\MS.Identity.API\\Extensions\\AppSettings.cs",
+              "RelativeToolTip": "src\\MS.Identity.API\\Extensions\\AppSettings.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-09T10:39:55.298Z"
+              "WhenOpened": "2025-05-08T12:20:48.15Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "MS.Identity.API.csproj",
-              "DocumentMoniker": "D:\\Weel\\Projects\\Dev.io\\MusicStore\\src\\MS.Identity.API\\MS.Identity.API.csproj",
-              "RelativeDocumentMoniker": "src\\MS.Identity.API\\MS.Identity.API.csproj",
-              "ToolTip": "D:\\Weel\\Projects\\Dev.io\\MusicStore\\src\\MS.Identity.API\\MS.Identity.API.csproj",
-              "RelativeToolTip": "src\\MS.Identity.API\\MS.Identity.API.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-04-09T10:27:39.417Z"
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Projects\\estudos\\MusicStore\\src\\MS.Identity.API\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "src\\MS.Identity.API\\appsettings.Development.json",
+              "ToolTip": "C:\\Projects\\estudos\\MusicStore\\src\\MS.Identity.API\\appsettings.Development.json",
+              "RelativeToolTip": "src\\MS.Identity.API\\appsettings.Development.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-05-08T12:25:50.805Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Projects\\estudos\\MusicStore\\src\\MS.Identity.API\\appsettings.json",
+              "RelativeDocumentMoniker": "src\\MS.Identity.API\\appsettings.json",
+              "ToolTip": "C:\\Projects\\estudos\\MusicStore\\src\\MS.Identity.API\\appsettings.json",
+              "RelativeToolTip": "src\\MS.Identity.API\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-05-12T14:30:00.292Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "BaseController.cs",
+              "DocumentMoniker": "C:\\Projects\\estudos\\MusicStore\\src\\MS.Identity.API\\Controllers\\BaseController.cs",
+              "RelativeDocumentMoniker": "src\\MS.Identity.API\\Controllers\\BaseController.cs",
+              "ToolTip": "C:\\Projects\\estudos\\MusicStore\\src\\MS.Identity.API\\Controllers\\BaseController.cs",
+              "RelativeToolTip": "src\\MS.Identity.API\\Controllers\\BaseController.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-14T11:45:18.31Z",
+              "EditorCaption": ""
             }
           ]
         }
